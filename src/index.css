@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+body {  
+  height: 100vh;
+  background-image: var(--bg-img);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+ 
+}
+
+.light-theme{
+  --bg-img: linear-gradient(to bottom right, rgba(226, 240, 254, 1), rgba(150, 211, 237, 1));  
+  transition: 0.5s;
+}
+.dark-theme{
+  --bg-img: linear-gradient(to bottom right, rgba(0, 35, 70, 1), rgba(17, 81, 145, 1));
+  transition: 0.5s;
+}
+
+/* Toggle Button */
+
+.darkbtn{
+  background-color: rgba(37, 175, 238, 1);
+  transform: translateX(75px);
+}
+
+
+.lightbtn{
+  background-color: rgba(242, 193, 57, 1);
+}
+
+.togglebtn{
+  border-radius: 40px;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  }
+  
+  .btn2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.7s;
+  }
+  
+

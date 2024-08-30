@@ -1,0 +1,12 @@
+.btn {
+    background-color: rgba(0, 40, 78, 1);
+}
+
+.main-div {
+    background-image: url(tasbeeh-bg.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    height: 510px;
+}
